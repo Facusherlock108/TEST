@@ -1,0 +1,141 @@
+/* Estilos generales */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos del header */
+
+.header {
+  background: linear-gradient(135deg, #960679, #9ffbdc);
+  color: #fff;
+  padding: 10px 0;
+  position: relative; /* Agregamos posición relativa */
+  z-index: 1; /* Aseguramos que esté por encima de las partículas */
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+.navbar-toggler-icon {
+  background-color: #fff;
+}
+
+/* Estilos del hero */
+
+.hero {
+  background: transparent;
+  background-size: cover;
+  background-position: center;
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+/* ... (tu código CSS anterior) ... */
+
+/* Estilos adicionales de Particles.js */
+
+#particles-js-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+/* ... (tu código CSS anterior) ... */
+
+}
+
+.hero-content {
+  max-width: 600px;
+}
+
+.btn-primary,
+.btn-secondary,
+.btn-info {
+  margin: 10px;
+}
+
+/* Estilos del carrusel */
+
+.carousel-container {
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  background-color: #f8f9fa;
+}
+
+.carousel {
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+}
+
+.carousel-slide {
+  flex: 0 0 30%; /* Tamaño del carrusel ajustado al 30% */
+  max-height: 100%;
+  overflow: hidden;
+}
+
+.carousel-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Estilos del footer */
+
+.footer {
+  background: linear-gradient(90deg, #960679, #612069);
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  position: relative;
+}
+
+.particles-js-canvas-el {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.footer-image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icons a {
+  margin: 0 10px;
+}
+
+/* Estilos adicionales de Particles.js */
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  background-image: none;
+}
+
+/* Otros estilos */
+
+.container-fluid {
+  padding: 0;
+}
+
+/* Estilos personalizados */
+
+/* Agrega aquí tus propios estilos personalizados */
